@@ -27,6 +27,7 @@
     "baseUrl": "src",
     "module": "ESNext",
     "moduleResolution": "node",
+    "lib": ["dom", "dom.iterable", "esnext"],
 
     // Language and Environment Configuration
     "target": "ESNext",
@@ -34,12 +35,12 @@
 
     // JavaScript Support Configuration
     "allowJs": true,
-    "checkJs": true,
+    "checkJs": false,
 
     // Interop Constraints Configuration
     "esModuleInterop": true,
     "isolatedModules": true
   },
-  "include": ["src/**/**/*"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
